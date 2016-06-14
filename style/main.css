@@ -59,7 +59,7 @@ h1.title {
   height: 25px;
   line-height: 47px;
   font-weight: bold;
-  border-radius: 3px;
+  border-radius: 0px;
   color: white;
   margin-top: 8px;
   text-align: center; }
@@ -150,7 +150,7 @@ hr {
   -ms-touch-action: none;
   touch-action: none;
   background: #bbada0;
-  border-radius: 6px;
+  border-radius: 0px;
   width: 500px;
   height: 500px;
   -webkit-box-sizing: border-box;
@@ -184,7 +184,7 @@ hr {
     .game-container .game-message a {
       display: inline-block;
       background: #8f7a66;
-      border-radius: 3px;
+      border-radius: 0px;
       padding: 0 20px;
       text-decoration: none;
       color: #000000;
@@ -219,7 +219,7 @@ hr {
   height: 80px;
   margin-right: 15px;
   float: left;
-  border-radius: 3px;
+  border-radius: 0px;
   background: rgba(238, 228, 218, 0.35); }
   .grid-cell:last-child {
     margin-right: 0; }
@@ -367,73 +367,66 @@ hr {
   -moz-transition-property: -moz-transform;
   transition-property: transform; }
   .tile .tile-inner {
-    border-radius: 3px;
+    border-radius: 0px;
     background: #eee4da;
     text-align: center;
     font-weight: bold;
     z-index: 10;
     font-size: 0px; }
   .tile.tile-2 .tile-inner {
-    background: #400000;
-    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
+    background: #800000;}
   .tile.tile-4 .tile-inner {
-    background: #004000;
-    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
+    background: #808000;}
   .tile.tile-8 .tile-inner {
     color: #000000;
-    background: #000040; }
+    background: #008000; }
   .tile.tile-16 .tile-inner {
     color: #000000;
-    background: #800000; }
+    background: #008080; }
   .tile.tile-32 .tile-inner {
     color: #000000;
-    background: #008000; }
-  .tile.tile-64 .tile-inner {
-    color: #000080;
     background: #000080; }
+  .tile.tile-64 .tile-inner {
+    color: #0000c0;
+    background: #800080; }
   .tile.tile-128 .tile-inner {
     color: #000000;
-    background: #c00000;
-    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.2381), inset 0 0 0 1px rgba(255, 255, 255, 0.14286);
+    background: #ff8080;
     font-size: 0px; }
     @media screen and (max-width: 520px) {
       .tile.tile-128 .tile-inner {
         font-size: 0px; } }
   .tile.tile-256 .tile-inner {
     color: #000000;
-    background: #00c000;
-    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.31746), inset 0 0 0 1px rgba(255, 255, 255, 0.19048);
+    background: #ffff80;
     font-size: 0px; }
     @media screen and (max-width: 520px) {
       .tile.tile-256 .tile-inner {
         font-size: 0px; } }
   .tile.tile-512 .tile-inner {
     color: #000000;
-    background: #0000c0;
-    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.39683), inset 0 0 0 1px rgba(255, 255, 255, 0.2381);
+    background: #80ff80;
     font-size: 0px; }
     @media screen and (max-width: 520px) {
       .tile.tile-512 .tile-inner {
         font-size: 0px; } }
   .tile.tile-1024 .tile-inner {
     color: #000000;
-    background: #ff0000;
-    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.47619), inset 0 0 0 1px rgba(255, 255, 255, 0.28571);
+    background: #80ffff;
     font-size: 0px; }
     @media screen and (max-width: 520px) {
       .tile.tile-1024 .tile-inner {
         font-size: 0px; } }
   .tile.tile-2048 .tile-inner {
     color: #000000;
-    background: #00ff00;
-    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.55556), inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
+    background: #8080ff;
     font-size: 0px; }
     @media screen and (max-width: 520px) {
       .tile.tile-2048 .tile-inner {
         font-size: 0px; } }
   .tile.tile-super .tile-inner {
     color: #000000;
-    background: #0000ff;
+    background: #ff80ff;
     font-size: 0px; }
     @media screen and (max-width: 520px) {
       .tile.tile-super .tile-inner {
@@ -565,7 +558,7 @@ hr {
 .restart-button {
   display: inline-block;
   background: #8f7a66;
-  border-radius: 3px;
+  border-radius: 0px;
   padding: 0 20px;
   text-decoration: none;
   color: #000000;
